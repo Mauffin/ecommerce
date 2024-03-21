@@ -17,7 +17,7 @@ function App() {
       <CarritoContext.Provider value={carrito}>
         <NavBar />
         <Routes>
-          <Route path="/" element={<Tienda />}></Route>
+         
           <Route path="/ecommerce" element={<Tienda />}></Route>
           <Route path="/mujer" element={<Mujer />}></Route>
           <Route path="/nino" element={<Ninos />}></Route>
